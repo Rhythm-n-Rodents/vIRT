@@ -1,4 +1,5 @@
 # vIRt
+
 Simulation programs for the article of Golomb et al., 2022.
 
 This github site includes computer programs and scripts for generating figures
@@ -11,17 +12,17 @@ rodent rhythmic whisking.
 Neuron, in press, 2022.
 
 Software needed:
-julia compiler, 
+julia compiler,
 XMGrace
 LaTeX
 
-# Generate data files used for the figures in the article:
+# Generate data files used for the figures in the article
 
 cd datfig
 
 julia ../genfig/gen_input_files.jl
 
-# Generate figure 6A,B (and more):
+# Generate figure 6A,B (and more)
 
 julia ../../prog/irt.jl pb_v_rast_intra
 
@@ -31,7 +32,7 @@ julia ../../prog/irt.jl pb_v_rast_no_intra
 
 ../genfig/scripts_fig/rasit_b.com
 
-# Generate figure S2:
+# Generate figure S2
 
 [Sumulation of the conductance-based model]
 
@@ -71,3 +72,15 @@ dvipdf figS2
 
 evince figS2.pdf
 
+## Support
+
+---
+
+If you are having issues, please let us know.
+Duane Rinehart
+Kleinfeld Lab @ UCSD - drinehart[at]ucsd.edu
+
+## License
+
+---
+The project is licensed under the [MIT license](https://mit-license.org/).
