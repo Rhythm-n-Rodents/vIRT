@@ -76,8 +76,9 @@ evince figS2.pdf
 
 ---
 
-If you are having issues, please let us know.
-Duane Rinehart
+If you are having issues, please let us know.  
+
+Duane Rinehart  
 Kleinfeld Lab @ UCSD - drinehart[at]ucsd.edu
 
 ## License
